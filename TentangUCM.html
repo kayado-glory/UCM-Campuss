@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+        <!-- css -->
+        <link href="Uji_coba-layout.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- bagian ini bagian header beserta tombol kawan-kawanya -->
+    <div id="header">
+      
+      <a href="index.html"><img src="layout/logoucm3.png" alt="logo UCM Campus" class="logo-header"></a>
+      <!-- <h1 class="judul-1-1">Politeknik Unggulan Cipta Mandiri</h1> -->
+
+      <ul class="menu-utama">
+        <li><a href="WebKampus_versi2.html" class="text-warna">Home</a></li>
+        <li><a href="Akademik.html" class="text-warna">Program Studi</a></li>
+        <li><a href="TentangUCM.html" class="text-warna">Tentang UCM</a></li>
+        <li><a href="KontakUCM.html" class="text-warna">Kontak kami</a></li>
+        <li><a href="lecture.html" class="text-warna">Lecture</a></li>
+      </ul>
+     
+    </div>
+
+    <div class="body">
+        <div class="bc-gambar">
+        <div class="gambar-gedung">
+            <p>Tentang</p><span>UCM Campus</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="timeline-section">
+      <h2 class="title-section">Perjalanan UCM</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-year">2009</div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Pendirian UCM</h3>
+            <p class="timeline-desc">UCM Campus didirikan dengan visi misi menjadi campus yang menghasilkan lulusan terbaik.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2011</div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Ekspansi Program</h3>
+            <p class="timeline-desc">Menambah program studi baru di bidang teknologi dan komunikasi.</p>
+          </div>
+        </div>
+
+
+        <div class="timeline-item">
+          <div class="timeline-year">2020</div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Kemitraan Industri</h3>
+            <p class="timeline-desc">Membangun kerjasama dengan 25+ perusahaan untuk program magang dan job placement.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2023</div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Presetasi Gemilang</h3>
+            <p class="timeline-desc">Meraih akreditasi A dan menjadi vokasi pilihan utama di kampus di Sumatera utara</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="more-examp">
+      <div class="slide-tabs">
+        <div class="slide-indicator" id="slideIndicator"></div>
+        <div class="slide-tabs-buttons">
+          <button class="slide-tab active" onclick="switchSlideTab(0,this)">
+            Visi
+          </button>
+
+          <button class="slide-tab" onclick="switchSlideTab(1,this)">
+            Misi
+          </button>
+
+        </div>
+      </div>
+
+    <div class="slide-tab-content active" id="slideContent0">
+      <h3 class="judul-VisidanMisi"> Visi </h3>
+      <p class="vision-1">Menjadi Perguruan tinggi vokasi yang unggul, berkarakter, dan berdaya saing yang tinggi di dunia bisnis dan teknologi</p>
+    </div>
+
+      <div class="slide-tab-content" id="slideContent1">
+       <p class="judul-VisidanMisi">Mission</p>
+       <ul class="titik">
+        <li>Menyelenggarakan pendidikan vokasi yang berbasis ilmu pengetahuan dan teknologi serta bertaqwa kepada Tuhan Yang Maha Esa.</li>
+        <li>Menyelenggarakan pendidikan yang berfokus pada pengembangan karakter.</li>
+        <li>Menyelenggarakan penelitian yang berbasis ilmu pengetahuan dan teknologi dan pengabdian pada masyarakat yang berguna untuk meningkatkan daya saing bangsa.</li>
+        <li>Meningkatkan kualitas manajemen institusi melalui perbaikan berkelanjutan berdasarkan prinsip tata kelola yang baik.</li>
+        <li>Menyelenggarakan kerjasama baik di tingkat nasional maupun regional.</li>
+        <li>Mempersiapkan lulusan Sarjana 1 (S1) yang berkarakter dan siap terjun dalam meningkatkan kehidupan masyarakat Indonesia.</li>
+       </ul>
+      </div>
+    </div>
+    </div>
+
+
+
+<footer class="footer-biru">
+    <div id="footer-container">
+        <div class="logo-footer">
+       <a href="index.html"><img src="layout/logoucm3.png" alt="logo-bagian-footer" class="logoucmfooter"></a>
+       </div>
+
+       <div class="footer-links"> 
+        <a href="https://api.whatsapp.com/send/?phone=6281376159347&text=Hello+UCM+Campus%21+nama+saya+...&type=phone_number&app_absent=0"><p class="tulisan-footer">WhatsApp</p></a>
+        <a href="https://www.instagram.com/ucmcampus?igsh=YjU0eDM2d3Fpanlk"><p class="tulisan-footer">Instagram</p></a>
+       </div>
+
+       <div class="footer-contact">
+        <p>
+          Jl. Bambu I No. 102, Durian<br>
+          Kota Medan, Sumatera Utara - Indonesia
+        </p>
+       </div>
+
+    </div>
+       <hr class="footer-line">
+       <p class="footer-copy">© Ini hanya uji coba untuk kebutuhan belajar.</p>
+    </footer>
+
+     <!-- untuk layoutheader perbesar kecil -->
+    <script src="layout/Perbesar-Perkecil.js" defer></script>
+
+    <!-- untuk bagian animasi untuk judul ucm -->
+    <script src="Tentang-UCM/animasi-entrance.js" defer></script>
+
+    <!-- untuk bagian animasi untuk scroll pada background -->
+     <script src="Tentang-UCM/Animasi_paralex.js" defer></script>
+
+     <!-- untuk bagian animasi untuk sejarah -->
+    <script src="Tentang-UCM/untuk_slideSejarah.js" defer></script>
+
+    <!-- untuk bagian animasi slide visi misi -->
+    <script src="Tentang-UCM/Menu-visi-misi.js" defer></script>
+
+    <!-- animasi bagian facilty -->
+     <script src="Tentang-UCM/Animasi_facility.js"></script>
+</body>
